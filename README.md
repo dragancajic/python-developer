@@ -3,12 +3,18 @@
 ### :basecamp: _From Foundations to Expert_ 🧠
 
 
-##### Learn 📚 Python 🐍 by Doing in 2023 🤓 • _Python v3.10.10_
+##### Learn 📚 Python 🐍 by Doing in 2024 🤓 • _Python v3.12.0_
 
 ``` bash
-dragancajic@localhost:~/Devs/python-developer> python3.10 --version
+dragancajic@fedora:~/Devs/python-developer> python3.10 --version
 Python 3.10.10
 ```
+_currently_
+``` bash
+dragancajic@ubuntu:~/Devs/python-developer$ python3.12 --version
+Python 3.12.0
+```
+
 
 ## _Problem Solving Exercises_
 
