@@ -3,16 +3,32 @@
 ### :basecamp: _From Foundations to Expert_ 🧠
 
 
-##### Learn 📚 Python 🐍 by Doing in 2024 🤓 • _Python v3.12.0_
+##### Learn 📚 Python 🐍 by Doing in 2024 🤓 • _Python v3.12.7_ @ KALI Linux
 
 ``` bash
 dragancajic@fedora:~/Devs/python-developer> python3.10 --version
 Python 3.10.10
 ```
-_currently_
+_previously_
 ``` bash
 dragancajic@ubuntu:~/Devs/python-developer$ python3.12 --version
 Python 3.12.0
+```
+_currently_
+``` Z shell (ZSH)
+┌──(dragancajic㉿kali)-[~/Devs/python-developer]
+└─$ zsh --version
+zsh 5.9 (x86_64-debian-linux-gnu)
+
+┌──(dragancajic㉿kali)-[~/Devs/python-developer]
+└─$ echo $SHELL && echo $ZSH_PATCHLEVEL && echo $ZSH_VERSION
+/usr/bin/zsh
+debian/5.9-6+b1
+5.9
+
+┌──(dragancajic㉿kali)-[~/Devs/python-developer]
+└─$ python --version
+Python 3.12.7
 ```
 
 
