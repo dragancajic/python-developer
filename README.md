@@ -3,19 +3,19 @@
 ### :basecamp: _From Foundations to Expert_ 🧠
 
 
-##### Learn 📚 Python 🐍 by Doing in 2024 🤓 • _Python v3.12.7_ @ KALI Linux
+##### Learn 📚 Python 🐍 by Doing in 2025 🤓 • _Python v3.12.3_ @ DAT Linux 2.0
 
+_DAT Linux 2.0_ | **The Data Science OS** ← 👀 🔥 🚀 ✔️
 ``` bash
-dragancajic@fedora:~/Devs/python-developer> python3.10 --version
-Python 3.10.10
+dragancajic@dat-linux:~/Devs/python-developer$ python3 --version
+Python 3.12.3
 ```
-_previously_
-``` bash
-dragancajic@ubuntu:~/Devs/python-developer$ python3.12 --version
-Python 3.12.0
-```
-_currently_
+_KALI Linux 2024.3_
 ``` Z shell (ZSH)
+┌──(dragancajic㉿kali)-[~/Devs/python-developer]
+└─$ python --version
+Python 3.12.7
+
 ┌──(dragancajic㉿kali)-[~/Devs/python-developer]
 └─$ zsh --version
 zsh 5.9 (x86_64-debian-linux-gnu)
@@ -25,10 +25,16 @@ zsh 5.9 (x86_64-debian-linux-gnu)
 /usr/bin/zsh
 debian/5.9-6+b1
 5.9
-
-┌──(dragancajic㉿kali)-[~/Devs/python-developer]
-└─$ python --version
-Python 3.12.7
+```
+_Ubuntu MATE 18.04.6 LTS_
+``` bash
+dragancajic@ubuntu:~/Devs/python-developer$ python3.12 --version
+Python 3.12.0
+```
+_Fedora Linux 35 (Workstation Edition)_
+``` bash
+dragancajic@fedora:~/Devs/python-developer> python3.10 --version
+Python 3.10.10
 ```
 
 
