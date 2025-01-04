@@ -20,13 +20,16 @@ print(f"You are {AGE}")
 
 
 NAME = "Драган"
-greeting = f"How are you, {NAME}?"
-print(greeting)
+GREETING = f"How are you, {NAME}?"
+print(GREETING)
 
-# limitation with f-strings <-- LOOK! :eyes:
+# LIMITATION with f-strings <-- LOOK! :eyes:
 NAME = "Bojan"
-print(NAME)      # output: Bojan
-print(greeting)  # `NAME` in f-string doesn't change after reassignment!
+print(NAME)  # output: Bojan
+print(GREETING)  # `NAME` in f-string doesn't change after reassignment!
+# but, you can do this:
+GREETING = f"How are you, {NAME}?"
+print(GREETING)  # output: How are you, Bojan?
 
 # That is why Python has another way of formatting strings which does
 # allow for the changing of variables:
@@ -35,28 +38,29 @@ NAME = "Luka"  # value for placeholder of the `FINAL_GREETING` string
 
 # `FINAL_GREETING` is the template for a `greeting`
 FINAL_GREETING = "How are you, {}?"  # placeholder {} is replaced by the value
+
 LUKA_GREETING = FINAL_GREETING.format(NAME)
-print(LUKA_GREETING)
+print(LUKA_GREETING)  # How are you, Luka?
 
 BOJAN_GREETING = FINAL_GREETING.format("Bojan")  # new value for placeholder!
-print(BOJAN_GREETING)
+print(BOJAN_GREETING)  # How are you, Bojan?
 
 # another way of using template string
 NAME = "Nada"
 FINAL_GREETING = "How are you, {NAME}?"  # this is not an f-string! LOOK!
-NADA_GREETING = FINAL_GREETING.format(NAME = "N a d a")  # <-- L O O K !
+NADA_GREETING = FINAL_GREETING.format(NAME="N a d a")  # <-- L O O K !
 
 print(FINAL_GREETING)
 print(NADA_GREETING)
 
 # confusing thing is THIS -> name = name (two[2] completely different variables!)
-NADA_GREETING = FINAL_GREETING.format(NAME = NAME)  # DIFFERENT variables!!!
+NADA_GREETING = FINAL_GREETING.format(NAME=NAME)  # DIFFERENT variables!!!
 
 print(FINAL_GREETING)
 print(NADA_GREETING)
 
 MOTHER_NAME = "N_a_d_a"
-NADA_GREETING = FINAL_GREETING.format(NAME = MOTHER_NAME)
+NADA_GREETING = FINAL_GREETING.format(NAME=MOTHER_NAME)
 
 print(FINAL_GREETING)
 print(NADA_GREETING)

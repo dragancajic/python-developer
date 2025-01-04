@@ -9,21 +9,21 @@ Created on Wed May 17 14:38:10 2023
 --------------------------------------------
 """
 
-truthy = True
-falsy = False
+TRUTHY = True
+FALSY = False
 
-age = 20
+AGE = 20
 
-is_over_age = age >= 18  # 20 >= 18 [is equal to] <=> True
-is_under_age = age < 18  # 20 < 18  [is equal to] <=> False
+IS_OVER_AGE = AGE >= 18  # 20 >= 18 [is equal to] <=> True
+IS_UNDER_AGE = AGE < 18  # 20 < 18  [is equal to] <=> False
 
-is_twenty = age == 20    # 20 == 20 [is equal to] <=> True
+IS_TWENTY = AGE == 20  # 20 == 20 [is equal to] <=> True
 
 
 # try to guess my magic number
-my_number = 5
+MY_NUMBER = 5
 user_number = int(input("Enter a number: "))
 
-matches = my_number == user_number
+matches = MY_NUMBER == user_number
 
 print(f"You got it right: {matches}.")
