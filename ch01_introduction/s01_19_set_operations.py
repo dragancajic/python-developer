@@ -47,3 +47,9 @@ print(all_friends)
 # Data Structures: Lists, Tuples, Sets
 # Most of the time, you will be using Tuples and Lists.
 # Sets are reserved when you want to use these (set) operations!
+
+# ~-~-~-
+# ∪ - union                <=> operator `|` <- УНИЈА
+# ∩ - intersection         <=> operator `&` <- ПРЕСЈЕК
+# \ - difference           <=> operator `-` <- РАЗЛИКА СКУПОВА `A\B`
+# ∆ - symmetric difference <=> operator `^` <- СИМЕТРИЧНА РАЗЛИКА (КОМПЛЕМЕНТ ПРЕСЈЕКА)
