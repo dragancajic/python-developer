@@ -19,4 +19,9 @@ user_friends.add(name_of_friend)
 
 # Print out the intersection between both sets.
 # This gives us a set with those friends that are nearby.
-print(nearby_people.intersection(user_friends))
+nearby_friend = nearby_people.intersection(user_friends)
+
+if nearby_friend:
+    print(f">>> {name_of_friend} is your nearby friend! ;-)")
+else:
+    print(f"You don't have nearby friend with {name_of_friend}!")
